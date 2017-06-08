@@ -27,5 +27,9 @@ public with sharing class PropertyController {
                 FROM Property__c
                 WHERE Id=:propertyId];
     }
+    
+    public static void doNothing() {
+    	System.debug('Im doing nothing...');
+    }
 
 }
